@@ -1,0 +1,35 @@
+{
+  "name": "tree-updater",
+  "version": "0.0.1",
+  "description": "Function to recursively update a given node and its children inside a tree structure (incl. frozen objects)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/paratagas/tree-updater.git"
+  },
+  "author": {
+    "name": "Evgeni Sviridenko",
+    "email": "paratagas@mail.ru",
+    "url": "https://github.com/paratagas"
+  },
+  "engines": {
+    "npm": ">=5.6.0",
+    "node": ">=8.11.3"
+  },
+  "tags": [
+    "node.js",
+    "tree",
+    "ava",
+    "deep-freeze"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0"
+  },
+  "dependencies": {
+    "deep-freeze": "^0.0.1"
+  }
+}
